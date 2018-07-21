@@ -88,9 +88,19 @@ body{
     background: #f7f5f5;
     transform: scale(1.1);
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: goldenrod;
+.navbar-default .navbar-nav>.active>a {
+
     background-color: #e7e7e7;
+    color: gold;
+    color: rgb(57, 9, 134);
+    background-color:  rgba(49, 49, 49, 0.746);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: rgb(99, 84, 3);
+    background-color: #e7e7e7;
+    color: rgb(57, 9, 134);
+    color: rgb(105, 90, 0);
+    background-color:  rgba(220, 220, 220, 0.815);
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -98,6 +108,8 @@ body{
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: goldenrod;
+    color: rgb(57, 9, 134);
+    background-color:  rgba(220, 220, 220, 0.815);
 }
 
 .icon-bar{
@@ -211,7 +223,7 @@ body{
 .about-social .fa{
     font-size: 25px;
     margin: 10px;
-    color: orange;
+    color: rgb(226, 123, 5);
 }
 #skill-area .container{
     background-color: rgb(239, 243, 247);
