@@ -185,6 +185,10 @@ body{
     font-weight: 300;
 }
 
+.welcome-btn a:hover{
+    color: rgb(2, 6, 27);
+    background-color: rgb(247, 23, 7);
+}
 
 .about-content p{
     text-align: justify;
@@ -196,6 +200,16 @@ body{
 
 .about-content a{
     background-color: orange;
+    color: black;
+    border-radius: 4px;
+    height: 50px;
+    padding: 5px 5px 5px 5px;
+    font-size: 2ch;
+    font-weight: 300;
+}
+
+.about-content a:hover{
+    background-color: rgb(247, 23, 7);
     color: black;
     border-radius: 4px;
     height: 50px;
@@ -225,6 +239,16 @@ body{
     margin: 10px;
     color: rgb(226, 123, 5);
 }
+
+.about-social .fa:hover{
+    font-size: 25px;
+    margin: 10px;
+    color: rgb(16, 116, 3);
+    transform:  scale(1.2);
+    transition: ease-in-out;
+    transition: transform 1s;  
+}
+
 #skill-area .container{
     background-color: rgb(239, 243, 247);
 }
@@ -278,6 +302,19 @@ body{
     font-size: 2.2ch;
     font-weight: 100;
 }
+
+.form-button{
+    background-color: orange;
+}
+
+#contact-area .contact-form .form-group .form-button:hover{
+    background-color: rgb(247, 23, 7);
+    color: black;
+    border-radius: 5px;
+    border-left-style: solid;
+
+}
+
 #myinterests-area .container{
     background-color: rgb(239, 243, 247);
 }
