@@ -244,7 +244,7 @@ body{
     font-size: 25px;
     margin: 10px;
     color: rgb(16, 116, 3);
-    transform:  scale(1.2);
+    transform:  scale(1.5);
     transition: ease-in-out;
     transition: transform 1s;  
 }
